@@ -5,23 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My resume</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
 
-  <!-- Main conteiner -->
-  <div>
-      <!-- Main contact section -->
-      <div>
-    
+  <!-- Main container -->
+  <div class="main-container">
+      <!-- Main content section -->
+      <div class="main-content-section">
+          
       <!-- About me -->
-      <div>
-        <h2>
+      <div class="about-me-section">
+        <h2 class="about-me-profession">
           Front-End Developer
         </h2> 
 
           <h1>
-            Vladimir Rudnyk
+            Vladimir Rudnik
           </h1> 
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -30,7 +33,7 @@
       </div>
 
       <!-- My projects section -->
-      <div>
+      <div class="my-projects-selection">
         <h3>Projects</h3>
           <ol>
           <li>
@@ -45,14 +48,14 @@
           </li>
           <li>
             <a href="https://kidslike.goit.global/"> https://kidslike.goit.global/</a>
-            <span>.................</span>
+            <span>.....................</span>
             <span>[ React.js, Node.js ]</span>
           </li>
           </ol>
       </div>
 
       <!-- My work section -->
-      <div>
+      <div class="my-work-selection">
         <h3>Work experience</h3>
         
         <!-- Company 3 -->
@@ -61,7 +64,7 @@
           <p>September 2019 - up to now | Country</p>
 
           <ul>
-            <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            <li class="projects-item"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
             aliqua.</li>
             <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
             <li> Risus commodo viverra maecenas.</li>
@@ -95,7 +98,7 @@
       </div>
 
       <!-- My education section -->
-      <div>
+      <div class="my-education-selection">
         <h3>Education</h3>
 
         <!-- University -->
@@ -105,11 +108,13 @@
       </div>
     </div>
       <!-- Saidebar -->
-      <aside>
-        <img src="img/photo.jpg" alt="My photo">
-
+      <aside class="sidebar-secrion">
+        <img src ="img/photo.jpg" alt="My photo">
+        
+        <!-- Saidebar text -->
+        <div class="sidebar-text">
         <!-- Contact section -->
-        <div>
+        <div class="contact-section">
           <h3>Contacts</h3>
             <div>
               <span>C:</span> 
@@ -145,7 +150,7 @@
               <li>Teamwork</li>
             </ul>
           </div>
-
+        </div>
       </aside>
   </div>
   </body>
